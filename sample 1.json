@@ -1,0 +1,26 @@
+{
+	"title":"sample graph",
+	"directed":false,
+	"weighted":false,
+	"edges":[
+		{"from":"joe", "to":"food"},
+		{"from":"joe", "to":"dog"},
+		{"from":"joe", "to":"tea"},
+		{"from":"joe", "to":"cat"},
+		{"from":"joe", "to":"table"},
+		{"from":"table", "to":"plate"},
+		{"from":"plate", "to":"food"},
+		{"from":"food", "to":"mouse"},
+		{"from":"food", "to":"dog"},
+		{"from":"mouse", "to":"cat"},
+		{"from":"table", "to":"cup"},
+		{"from":"cup", "to":"tea"},
+		{"from":"dog", "to":"cat"},
+		{"from":"cup", "to":"spoon"},
+		{"from":"plate", "to":"fork"},
+		{"from":"dog", "to":"flea1"},
+		{"from":"dog", "to":"flea2"},
+		{"from":"flea1", "to":"flea2"},
+		{"from":"plate", "to":"knife"},
+		]
+}
